@@ -1,20 +1,18 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
+import './style.css';
+import { BrowserRouter as Router,  Route, NavLink } from 'react-router-dom';
 import About from './components/About';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Footer from './components/Footer'
+
+
 
 function App() {
   return (
-    <Router>
-    <div className="App">
-      <header className="App-header">
-      <Switch>
-        <Route path='/about' render={(props) => <About {...props} /> }/>
-      </Switch>
-
-      </header>
+    <div>
+      <Footer/>
     </div>
-    </Router>
-  );
+  )
 }
 
 export default App;
