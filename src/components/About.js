@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const About = () => {
+export const About = (props) => {
     return (
         <div>
-            <h4>This is the about page.. George jsut screamed out from his sleep... something about a racoon..</h4>
+          <h2>What's Plant Nanny?</h2>
+          <p>
+              Plant Nanny is an app designed to help you keep track of your plants and make sure that you don't kill them!
+          </p>
         </div>
     )
 }
