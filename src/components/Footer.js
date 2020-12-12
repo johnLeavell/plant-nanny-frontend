@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import '../index.css';
+
 
 
 const Footer = () => {
@@ -11,11 +12,10 @@ const Footer = () => {
     }, [])
     return (
         <>
-            <div style={{ float: 'right' }}>&copy; John Leavell - {date}</div> 
-            <div style={{ float: 'right', marginLeft: 'auto'}}>
+            <div style={{ float: 'left' }}>&copy; John Leavell - {date}</div> 
+            <div style={{ float: 'left', marginLeft: 'auto'}}>
             </div>
         </>
-
     )
 }
 
